@@ -3,9 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>TITULO</title>
+
     <script src="js/hls.js"></script>
     <script src="js/DPlayer.min.js"></script>
+
     <style>
         body {
             margin: 0;
@@ -13,97 +16,35 @@
     </style>
 </head>
 <body>
+
 <div id="dplayer"></div>
-<div id="dplayer1"></div>
-<div id="dplayer2"></div>
-
 <script>
+    // Obtén el parámetro de la URL
     const urlParams = new URLSearchParams(window.location.search);
-    const playerSelection = urlParams.get('player');
+    const hlsParam = urlParams.get('hls');
 
+    // Construye la ruta del video según el parámetro
+    const videoPath = `${hlsParam}/stream.m3u8`;
+
+    // Configura el reproductor de video con la ruta construida
     const dp = new DPlayer({
         container: document.getElementById('dplayer'),
-        autoplay: false,
+        autoplay: true,
         video: {
             quality: [
                 {
                     name: 'HQ',
-                    url: 'hls/stream.m3u8',
+                    url: videoPath,
                     type: 'hls',
-                },
-                {
-                    name: '',
-                    url: '',
-                    type: 'hls',
-                },
+                }
             ],
             defaultQuality: 0,
             pic: 'demo.png',
             thumbnails: 'thumbnails.jpg',
         },
     });
-
-    const dp1 = new DPlayer({
-        container: document.getElementById('dplayer1'),
-        autoplay: false,
-        video: {
-            quality: [
-                {
-                    name: 'HQ',
-                    url: 'hls1/stream.m3u8',
-                    type: 'hls',
-                },
-                {
-                    name: '',
-                    url: '',
-                    type: 'hls',
-                },
-            ],
-            defaultQuality: 0,
-            pic: 'demo.png',
-            thumbnails: 'thumbnails.jpg',
-        },
-    });
-
-    const dp2 = new DPlayer({
-        container: document.getElementById('dplayer2'),
-        autoplay: false,
-        video: {
-            quality: [
-                {
-                    name: 'HQ',
-                    url: 'hls2/stream.m3u8',
-                    type: 'hls',
-                },
-                {
-                    name: '',
-                    url: '',
-                    type: 'hls',
-                },
-            ],
-            defaultQuality: 0,
-            pic: 'demo.png',
-            thumbnails: 'thumbnails.jpg',
-        },
-    });
-
-    // Ocultar uno de los reproductores basándote en la selección
-    if (playerSelection === 'player2') {
-        dp2.container.style.display = 'block';
-        dp1.container.style.display = 'none';
-        dp.container.style.display = 'none';
-    } else if (playerSelection === 'player1') {
-        dp2.container.style.display = 'none';
-        dp1.container.style.display = 'block';
-        dp.container.style.display = 'none';
-    } else {
-        dp2.container.style.display = 'none';
-        dp1.container.style.display = 'none';
-        dp.container.style.display = 'block';
-    }
 </script>
+
 </body>
 </html>
-
-
 

@@ -1064,3 +1064,783 @@
 2024/02/20 22:36:05 [info] 3996#3328: *1 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
 2024/02/20 22:36:05 [info] 3996#3328: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
 2024/02/20 22:36:05 [info] 3996#3328: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 16:59:55 [notice] 2456#15116: using the "select" event method
+2024/02/27 16:59:55 [notice] 2456#15116: nginx/1.14.1
+2024/02/27 16:59:55 [info] 2456#15116: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 16:59:55 [notice] 2456#15116: start worker processes
+2024/02/27 16:59:55 [notice] 2456#15116: start worker process 16168
+2024/02/27 16:59:56 [notice] 16168#14284: nginx/1.14.1
+2024/02/27 16:59:56 [info] 16168#14284: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 16:59:56 [notice] 16168#14284: create thread 12780
+2024/02/27 16:59:56 [notice] 16168#14284: create thread 7056
+2024/02/27 16:59:56 [notice] 16168#14284: create thread 12648
+2024/02/27 17:00:36 [info] 16168#12780: *1 client connected '127.0.0.1'
+2024/02/27 17:00:36 [info] 16168#12780: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:36 [info] 16168#12780: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:36 [info] 16168#12780: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:36 [info] 16168#12780: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:56 [info] 16168#12780: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:56 [info] 16168#12780: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:56 [info] 16168#12780: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:00:56 [info] 16168#12780: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:01:16 [emerg] 15884#15772: invalid value "on" in D:\nginx/conf/nginx.conf:20
+2024/02/27 17:01:43 [emerg] 13772#13524: invalid value "on" in D:\nginx/conf/nginx.conf:20
+2024/02/27 17:02:12 [notice] 14888#14876: using the "select" event method
+2024/02/27 17:02:12 [notice] 14888#14876: nginx/1.14.1
+2024/02/27 17:02:12 [info] 14888#14876: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:02:12 [notice] 14888#14876: start worker processes
+2024/02/27 17:02:12 [notice] 14888#14876: start worker process 15152
+2024/02/27 17:02:12 [notice] 15152#17276: nginx/1.14.1
+2024/02/27 17:02:12 [info] 15152#17276: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:02:12 [notice] 15152#17276: create thread 12144
+2024/02/27 17:02:12 [notice] 15152#17276: create thread 11972
+2024/02/27 17:02:12 [notice] 15152#17276: create thread 12212
+2024/02/27 17:02:28 [info] 15152#12144: *1 client connected '127.0.0.1'
+2024/02/27 17:02:28 [info] 15152#12144: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:28 [info] 15152#12144: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:28 [info] 15152#12144: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:28 [info] 15152#12144: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:30 [info] 15152#12144: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:30 [info] 15152#12144: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:30 [info] 15152#12144: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:02:30 [info] 15152#12144: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:06:31 [notice] 1088#16172: using the "select" event method
+2024/02/27 17:06:31 [notice] 1088#16172: nginx/1.14.1
+2024/02/27 17:06:31 [info] 1088#16172: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:06:31 [notice] 1088#16172: start worker processes
+2024/02/27 17:06:31 [notice] 1088#16172: start worker process 13692
+2024/02/27 17:06:31 [notice] 13692#13712: nginx/1.14.1
+2024/02/27 17:06:31 [info] 13692#13712: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:06:31 [notice] 13692#13712: create thread 17232
+2024/02/27 17:06:31 [notice] 13692#13712: create thread 13012
+2024/02/27 17:06:31 [notice] 13692#13712: create thread 14452
+2024/02/27 17:06:35 [info] 13692#17232: *1 client connected '127.0.0.1'
+2024/02/27 17:06:35 [info] 13692#17232: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:06:35 [info] 13692#17232: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:06:35 [info] 13692#17232: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:06:35 [info] 13692#17232: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:06:35 [crit] 13692#17232: *1 record:  failed to open file 'records/hls/stream.flv' (3: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:07:43 [info] 13692#17232: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:07:43 [info] 13692#17232: *1 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:07:43 [info] 13692#17232: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:07:43 [info] 13692#17232: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:08:46 [notice] 5800#11712: using the "select" event method
+2024/02/27 17:08:46 [notice] 5800#11712: nginx/1.14.1
+2024/02/27 17:08:46 [info] 5800#11712: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:08:46 [notice] 5800#11712: start worker processes
+2024/02/27 17:08:46 [notice] 5800#11712: start worker process 14888
+2024/02/27 17:08:46 [notice] 14888#4068: nginx/1.14.1
+2024/02/27 17:08:46 [info] 14888#4068: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:08:46 [notice] 14888#4068: create thread 13848
+2024/02/27 17:08:46 [notice] 14888#4068: create thread 268
+2024/02/27 17:08:46 [notice] 14888#4068: create thread 14052
+2024/02/27 17:08:50 [info] 14888#13848: *1 client connected '127.0.0.1'
+2024/02/27 17:08:50 [info] 14888#13848: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:08:50 [info] 14888#13848: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:08:50 [info] 14888#13848: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:08:50 [info] 14888#13848: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:08 [info] 14888#13848: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:08 [info] 14888#13848: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:08 [info] 14888#13848: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:08 [info] 14888#13848: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:42 [info] 14888#13848: *4 client connected '127.0.0.1'
+2024/02/27 17:09:42 [info] 14888#13848: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:42 [info] 14888#13848: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:42 [info] 14888#13848: *4 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:42 [info] 14888#13848: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:50 [info] 14888#13848: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:50 [info] 14888#13848: *4 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:50 [info] 14888#13848: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:09:50 [info] 14888#13848: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:10:20 [emerg] 9580#11172: BIO_new_file("C:/Certbot/live/pruebastreaming.ddns.net/fullchain.pem") failed (SSL: error:02001005:system library:fopen:Input/output error:fopen('C:/Certbot/live/pruebastreaming.ddns.net/fullchain.pem','r') error:2006D002:BIO routines:BIO_new_file:system lib)
+2024/02/27 17:10:41 [notice] 17316#17248: using the "select" event method
+2024/02/27 17:10:41 [notice] 17316#17248: nginx/1.14.1
+2024/02/27 17:10:41 [info] 17316#17248: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:10:41 [notice] 17316#17248: start worker processes
+2024/02/27 17:10:41 [notice] 17316#17248: start worker process 13380
+2024/02/27 17:10:41 [notice] 13380#13912: nginx/1.14.1
+2024/02/27 17:10:41 [info] 13380#13912: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:10:41 [notice] 13380#13912: create thread 1928
+2024/02/27 17:10:41 [notice] 13380#13912: create thread 2820
+2024/02/27 17:10:41 [notice] 13380#13912: create thread 10440
+2024/02/27 17:10:52 [info] 13380#1928: *1 client connected '127.0.0.1'
+2024/02/27 17:10:52 [info] 13380#1928: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:10:52 [info] 13380#1928: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:10:52 [info] 13380#1928: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:10:52 [info] 13380#1928: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:03 [info] 13380#1928: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:03 [info] 13380#1928: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:03 [info] 13380#1928: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:03 [info] 13380#1928: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:05 [info] 13380#1928: *4 client connected '127.0.0.1'
+2024/02/27 17:11:05 [info] 13380#1928: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:05 [info] 13380#1928: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:05 [info] 13380#1928: *4 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:05 [info] 13380#1928: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:10 [info] 13380#1928: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:10 [info] 13380#1928: *4 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:10 [info] 13380#1928: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:11:10 [info] 13380#1928: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:15:09 [notice] 17316#17248: worker process 13380 exited with code 1
+2024/02/27 17:15:09 [notice] 17316#17248: start worker process 6056
+2024/02/27 17:15:09 [notice] 6056#1280: nginx/1.14.1
+2024/02/27 17:15:09 [info] 6056#1280: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:15:09 [notice] 6056#1280: create thread 956
+2024/02/27 17:15:09 [notice] 6056#1280: create thread 14820
+2024/02/27 17:15:09 [notice] 6056#1280: create thread 14316
+2024/02/27 17:16:24 [notice] 6676#16548: using the "select" event method
+2024/02/27 17:16:24 [notice] 6676#16548: nginx/1.14.1
+2024/02/27 17:16:24 [info] 6676#16548: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:16:24 [notice] 6676#16548: start worker processes
+2024/02/27 17:16:24 [notice] 6676#16548: start worker process 7336
+2024/02/27 17:16:24 [notice] 7336#16612: nginx/1.14.1
+2024/02/27 17:16:24 [info] 7336#16612: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:16:24 [notice] 7336#16612: create thread 13476
+2024/02/27 17:16:24 [notice] 7336#16612: create thread 13920
+2024/02/27 17:16:24 [notice] 7336#16612: create thread 5208
+2024/02/27 17:16:36 [info] 6056#956: *7 client connected '127.0.0.1'
+2024/02/27 17:16:36 [info] 6056#956: *7 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:36 [info] 6056#956: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:36 [info] 6056#956: *7 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:36 [info] 6056#956: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:55 [info] 6056#956: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:55 [info] 6056#956: *7 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:55 [info] 6056#956: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:16:55 [info] 6056#956: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:10 [info] 6056#956: *10 client connected '127.0.0.1'
+2024/02/27 17:17:10 [info] 6056#956: *10 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:10 [info] 6056#956: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:10 [info] 6056#956: *10 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:10 [info] 6056#956: *10 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:18 [info] 6056#956: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:18 [info] 6056#956: *10 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:18 [info] 6056#956: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:18 [info] 6056#956: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:44 [notice] 7368#14732: using the "select" event method
+2024/02/27 17:17:44 [notice] 7368#14732: nginx/1.14.1
+2024/02/27 17:17:44 [info] 7368#14732: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:17:44 [notice] 7368#14732: start worker processes
+2024/02/27 17:17:44 [notice] 7368#14732: start worker process 17108
+2024/02/27 17:17:44 [notice] 17108#8144: nginx/1.14.1
+2024/02/27 17:17:44 [info] 17108#8144: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:17:44 [notice] 17108#8144: create thread 11152
+2024/02/27 17:17:44 [notice] 17108#8144: create thread 14456
+2024/02/27 17:17:44 [notice] 17108#8144: create thread 6176
+2024/02/27 17:17:46 [info] 17108#11152: *1 client connected '127.0.0.1'
+2024/02/27 17:17:46 [info] 17108#11152: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:46 [info] 17108#11152: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:46 [info] 17108#11152: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:46 [info] 17108#11152: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:52 [info] 17108#11152: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:52 [info] 17108#11152: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:52 [info] 17108#11152: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:17:52 [info] 17108#11152: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:35 [emerg] 2396#9184: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:75
+2024/02/27 17:23:39 [info] 17108#11152: *4 client connected '127.0.0.1'
+2024/02/27 17:23:39 [info] 17108#11152: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:39 [info] 17108#11152: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:39 [info] 17108#11152: *4 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:39 [info] 17108#11152: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:55 [info] 17108#11152: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:55 [info] 17108#11152: *4 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:55 [info] 17108#11152: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:23:55 [info] 17108#11152: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:25:19 [emerg] 4748#6040: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:75
+2024/02/27 17:25:42 [emerg] 9152#9084: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:75
+2024/02/27 17:27:01 [emerg] 3124#13688: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:28:00 [notice] 13692#7692: using the "select" event method
+2024/02/27 17:28:00 [notice] 13692#7692: nginx/1.14.1
+2024/02/27 17:28:00 [info] 13692#7692: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:28:00 [notice] 13692#7692: start worker processes
+2024/02/27 17:28:00 [notice] 13692#7692: start worker process 14144
+2024/02/27 17:28:00 [notice] 14144#5448: nginx/1.14.1
+2024/02/27 17:28:00 [info] 14144#5448: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:28:00 [notice] 14144#5448: create thread 13648
+2024/02/27 17:28:00 [notice] 14144#5448: create thread 4508
+2024/02/27 17:28:00 [notice] 14144#5448: create thread 1984
+2024/02/27 17:28:29 [emerg] 7588#8600: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:28:41 [emerg] 8972#6744: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:29:09 [emerg] 1756#16904: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:30:06 [emerg] 4396#6924: "satisfy" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:31:41 [emerg] 16428#15428: "auth_basic_user_file" directive is not allowed here in D:\nginx/conf/nginx.conf:74
+2024/02/27 17:33:00 [notice] 9904#13616: using the "select" event method
+2024/02/27 17:33:00 [notice] 9904#13616: nginx/1.14.1
+2024/02/27 17:33:00 [info] 9904#13616: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:33:00 [notice] 9904#13616: start worker processes
+2024/02/27 17:33:00 [notice] 9904#13616: start worker process 13476
+2024/02/27 17:33:00 [notice] 13476#12632: nginx/1.14.1
+2024/02/27 17:33:00 [info] 13476#12632: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:33:00 [notice] 13476#12632: create thread 5040
+2024/02/27 17:33:00 [notice] 13476#12632: create thread 4424
+2024/02/27 17:33:00 [notice] 13476#12632: create thread 13876
+2024/02/27 17:33:04 [info] 13476#5040: *1 client connected '127.0.0.1'
+2024/02/27 17:33:04 [info] 13476#5040: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:04 [info] 13476#5040: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:04 [info] 13476#5040: *1 publish: name='stream' args='psk=1asdasd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:04 [info] 13476#5040: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:04 [info] 13476#5040: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:04 [info] 13476#5040: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 client connected '127.0.0.1'
+2024/02/27 17:33:19 [info] 13476#5040: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:33:19 [info] 13476#5040: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 client connected '127.0.0.1'
+2024/02/27 17:34:24 [info] 13476#5040: *7 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:24 [info] 13476#5040: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 client connected '127.0.0.1'
+2024/02/27 17:34:47 [info] 13476#5040: *10 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:47 [info] 13476#5040: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:34:53 [notice] 9904#13616: worker process 13476 exited with code 1
+2024/02/27 17:34:53 [notice] 9904#13616: start worker process 16832
+2024/02/27 17:34:53 [notice] 16832#15204: nginx/1.14.1
+2024/02/27 17:34:53 [info] 16832#15204: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:34:53 [notice] 16832#15204: create thread 5032
+2024/02/27 17:34:53 [notice] 16832#15204: create thread 6040
+2024/02/27 17:34:53 [notice] 16832#15204: create thread 16772
+2024/02/27 17:35:42 [notice] 9528#13460: using the "select" event method
+2024/02/27 17:35:42 [notice] 9528#13460: nginx/1.14.1
+2024/02/27 17:35:42 [info] 9528#13460: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:35:42 [notice] 9528#13460: start worker processes
+2024/02/27 17:35:42 [notice] 9528#13460: start worker process 10052
+2024/02/27 17:35:42 [notice] 10052#16436: nginx/1.14.1
+2024/02/27 17:35:42 [info] 10052#16436: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:35:42 [notice] 10052#16436: create thread 4308
+2024/02/27 17:35:42 [notice] 10052#16436: create thread 2212
+2024/02/27 17:35:42 [notice] 10052#16436: create thread 14164
+2024/02/27 17:35:45 [info] 10052#4308: *1 client connected '127.0.0.1'
+2024/02/27 17:35:45 [info] 10052#4308: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:35:45 [info] 10052#4308: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:35:45 [info] 10052#4308: *1 publish: name='stream' args='psk=1234' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:35:45 [info] 10052#4308: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:35:45 [info] 10052#4308: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:35:45 [info] 10052#4308: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 client connected '127.0.0.1'
+2024/02/27 17:36:02 [info] 10052#4308: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:36:02 [info] 10052#4308: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:17 [notice] 15888#14696: using the "select" event method
+2024/02/27 17:38:17 [notice] 15888#14696: nginx/1.14.1
+2024/02/27 17:38:17 [info] 15888#14696: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:38:17 [notice] 15888#14696: start worker processes
+2024/02/27 17:38:17 [notice] 15888#14696: start worker process 13740
+2024/02/27 17:38:17 [notice] 13740#12436: nginx/1.14.1
+2024/02/27 17:38:17 [info] 13740#12436: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:38:17 [notice] 13740#12436: create thread 14348
+2024/02/27 17:38:17 [notice] 13740#12436: create thread 3948
+2024/02/27 17:38:17 [notice] 13740#12436: create thread 4304
+2024/02/27 17:38:25 [info] 13740#14348: *1 client connected '127.0.0.1'
+2024/02/27 17:38:25 [info] 13740#14348: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:25 [info] 13740#14348: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:25 [info] 13740#14348: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:25 [info] 13740#14348: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:25 [info] 13740#14348: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:38:25 [info] 13740#14348: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:39:31 [info] 13740#14348: *4 no user/password was provided for basic authentication, client: 115.198.85.215, server: , request: "GET / HTTP/1.1", host: "62.82.125.129:80"
+2024/02/27 17:39:32 [info] 13740#14348: *5 no user/password was provided for basic authentication, client: 115.198.85.215, server: , request: "GET /favicon.ico HTTP/1.1", host: "62.82.125.129:80"
+2024/02/27 17:44:30 [info] 13740#14348: *6 client closed connection while waiting for request, client: 15.237.143.126, server: 0.0.0.0:80
+2024/02/27 17:53:33 [emerg] 14732#12552: invalid condition "$arg_app" in D:\nginx/conf/nginx.conf:69
+2024/02/27 17:54:46 [emerg] 2944#8268: "if" directive is not allowed here in D:\nginx/conf/nginx.conf:70
+2024/02/27 17:56:52 [notice] 156#12828: using the "select" event method
+2024/02/27 17:56:52 [notice] 156#12828: nginx/1.14.1
+2024/02/27 17:56:52 [info] 156#12828: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:56:52 [notice] 156#12828: start worker processes
+2024/02/27 17:56:52 [notice] 156#12828: start worker process 7044
+2024/02/27 17:56:52 [notice] 7044#12364: nginx/1.14.1
+2024/02/27 17:56:52 [info] 7044#12364: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 17:56:52 [notice] 7044#12364: create thread 8176
+2024/02/27 17:56:52 [notice] 7044#12364: create thread 14876
+2024/02/27 17:56:52 [notice] 7044#12364: create thread 12344
+2024/02/27 17:56:54 [info] 7044#8176: *1 client connected '127.0.0.1'
+2024/02/27 17:56:54 [info] 7044#8176: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:54 [info] 7044#8176: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:54 [info] 7044#8176: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:54 [info] 7044#8176: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:59 [info] 7044#8176: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:59 [info] 7044#8176: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:59 [info] 7044#8176: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:56:59 [info] 7044#8176: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 client connected '127.0.0.1'
+2024/02/27 17:57:07 [info] 7044#8176: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 publish: name='stream' args='psk=abc' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:07 [info] 7044#8176: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:20 [info] 7044#8176: *7 client connected '127.0.0.1'
+2024/02/27 17:57:20 [info] 7044#8176: *7 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:20 [info] 7044#8176: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:20 [info] 7044#8176: *7 publish: name='stream' args='psk=12cd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:20 [info] 7044#8176: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:20 [crit] 7044#8176: *7 record:  failed to open file 'records/hls2/stream-1709056640.flv' (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:23 [info] 7044#8176: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:23 [info] 7044#8176: *7 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:23 [info] 7044#8176: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:57:23 [info] 7044#8176: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 17:59:41 [emerg] 6920#8596: CreateFile() "D:/contraseñas.conf" failed (2: FormatMessage() error:(15100)) in D:\nginx/conf/nginx.conf:66
+2024/02/27 18:00:57 [emerg] 7368#9068: CreateFile() "D:/passwords.conf" failed (2: FormatMessage() error:(15100)) in D:\nginx/conf/nginx.conf:66
+2024/02/27 18:02:29 [emerg] 13576#16124: CreateFile() "D:
+ginx/conf/passwords.conf" failed (123: FormatMessage() error:(15100)) in D:\nginx/conf/nginx.conf:66
+2024/02/27 18:03:11 [notice] 7352#8648: using the "select" event method
+2024/02/27 18:03:11 [notice] 7352#8648: nginx/1.14.1
+2024/02/27 18:03:11 [info] 7352#8648: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:03:11 [notice] 7352#8648: start worker processes
+2024/02/27 18:03:11 [notice] 7352#8648: start worker process 14596
+2024/02/27 18:03:11 [notice] 14596#15704: nginx/1.14.1
+2024/02/27 18:03:11 [info] 14596#15704: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:03:11 [notice] 14596#15704: create thread 2820
+2024/02/27 18:03:11 [notice] 14596#15704: create thread 13528
+2024/02/27 18:03:11 [notice] 14596#15704: create thread 16528
+2024/02/27 18:03:14 [info] 14596#2820: *1 client connected '127.0.0.1'
+2024/02/27 18:03:14 [info] 14596#2820: *1 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:14 [info] 14596#2820: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:14 [info] 14596#2820: *1 publish: name='stream' args='psk=12cd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:14 [info] 14596#2820: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:14 [crit] 14596#2820: *1 record:  failed to open file 'records/hls2/stream-1709056994.flv' (3: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:18 [info] 14596#2820: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:18 [info] 14596#2820: *1 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:18 [info] 14596#2820: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:18 [info] 14596#2820: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 client connected '127.0.0.1'
+2024/02/27 18:03:25 [info] 14596#2820: *4 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 publish: name='stream' args='psk=12c' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:25 [info] 14596#2820: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 client connected '127.0.0.1'
+2024/02/27 18:03:38 [info] 14596#2820: *7 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 publish: name='stream' args='psk=12c' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:38 [info] 14596#2820: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 client connected '127.0.0.1'
+2024/02/27 18:03:39 [info] 14596#2820: *10 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 publish: name='stream' args='psk=12c' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:39 [info] 14596#2820: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 client connected '127.0.0.1'
+2024/02/27 18:03:48 [info] 14596#2820: *13 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 publish: name='stream' args='psk=12c' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:48 [info] 14596#2820: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:56 [info] 14596#2820: *16 client connected '127.0.0.1'
+2024/02/27 18:03:56 [info] 14596#2820: *16 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:56 [info] 14596#2820: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:56 [info] 14596#2820: *16 publish: name='stream' args='psk=12cd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:56 [info] 14596#2820: *16 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:03:56 [crit] 14596#2820: *16 record:  failed to open file 'records/hls2/stream-1709057036.flv' (3: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:04:00 [info] 14596#2820: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:04:00 [info] 14596#2820: *16 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:04:00 [info] 14596#2820: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:04:00 [info] 14596#2820: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:10 [notice] 15620#12828: using the "select" event method
+2024/02/27 18:07:10 [notice] 15620#12828: nginx/1.14.1
+2024/02/27 18:07:10 [info] 15620#12828: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:07:10 [notice] 15620#12828: start worker processes
+2024/02/27 18:07:10 [notice] 15620#12828: start worker process 10164
+2024/02/27 18:07:10 [notice] 10164#16740: nginx/1.14.1
+2024/02/27 18:07:10 [info] 10164#16740: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:07:10 [notice] 10164#16740: create thread 15192
+2024/02/27 18:07:10 [notice] 10164#16740: create thread 16632
+2024/02/27 18:07:10 [notice] 10164#16740: create thread 17132
+2024/02/27 18:07:13 [info] 10164#15192: *1 client connected '127.0.0.1'
+2024/02/27 18:07:13 [info] 10164#15192: *1 connect: app='live2' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live2' tc_url='rtmp://localhost/live2' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:13 [info] 10164#15192: *1 connect: application not found: 'live2', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:13 [info] 10164#15192: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:13 [info] 10164#15192: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:35 [info] 10164#15192: *2 client connected '127.0.0.1'
+2024/02/27 18:07:35 [info] 10164#15192: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:35 [info] 10164#15192: *2 connect: application not found: 'live', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:35 [info] 10164#15192: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:35 [info] 10164#15192: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:51 [info] 10164#15192: *3 client connected '127.0.0.1'
+2024/02/27 18:07:51 [info] 10164#15192: *3 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:51 [info] 10164#15192: *3 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:51 [info] 10164#15192: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:07:51 [info] 10164#15192: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:09:54 [emerg] 12864#12456: invalid number of arguments in "application" directive in D:\nginx/conf/nginx.conf:17
+2024/02/27 18:12:14 [emerg] 16808#11192: invalid number of arguments in "application" directive in D:\nginx/conf/nginx.conf:17
+2024/02/27 18:14:18 [notice] 12364#2868: using the "select" event method
+2024/02/27 18:14:18 [notice] 12364#2868: nginx/1.14.1
+2024/02/27 18:14:18 [info] 12364#2868: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:14:18 [notice] 12364#2868: start worker processes
+2024/02/27 18:14:18 [notice] 12364#2868: start worker process 3504
+2024/02/27 18:14:18 [notice] 3504#5476: nginx/1.14.1
+2024/02/27 18:14:18 [info] 3504#5476: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:14:18 [notice] 3504#5476: create thread 4376
+2024/02/27 18:14:18 [notice] 3504#5476: create thread 16800
+2024/02/27 18:14:18 [notice] 3504#5476: create thread 14716
+2024/02/27 18:14:23 [info] 3504#4376: *1 client connected '127.0.0.1'
+2024/02/27 18:14:23 [info] 3504#4376: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:23 [info] 3504#4376: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:23 [info] 3504#4376: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:23 [info] 3504#4376: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:45 [info] 3504#4376: *2 client connected '127.0.0.1'
+2024/02/27 18:14:45 [info] 3504#4376: *2 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:45 [info] 3504#4376: *2 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:45 [info] 3504#4376: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:14:45 [info] 3504#4376: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:14 [notice] 3948#12932: using the "select" event method
+2024/02/27 18:18:14 [notice] 3948#12932: nginx/1.14.1
+2024/02/27 18:18:14 [info] 3948#12932: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:18:14 [notice] 3948#12932: start worker processes
+2024/02/27 18:18:14 [notice] 3948#12932: start worker process 16896
+2024/02/27 18:18:14 [notice] 16896#15244: nginx/1.14.1
+2024/02/27 18:18:14 [info] 16896#15244: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:18:14 [notice] 16896#15244: create thread 2656
+2024/02/27 18:18:14 [notice] 16896#15244: create thread 9416
+2024/02/27 18:18:14 [notice] 16896#15244: create thread 6044
+2024/02/27 18:18:17 [info] 16896#2656: *1 client connected '127.0.0.1'
+2024/02/27 18:18:17 [info] 16896#2656: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:17 [info] 16896#2656: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:17 [info] 16896#2656: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:17 [info] 16896#2656: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:27 [info] 16896#2656: *2 client connected '127.0.0.1'
+2024/02/27 18:18:27 [info] 16896#2656: *2 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:27 [info] 16896#2656: *2 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:27 [info] 16896#2656: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:18:27 [info] 16896#2656: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:19:29 [error] 16896#2656: *3 "D:\nginx/html/index.html" is not found (3: FormatMessage() error:(15100)), client: 185.224.128.20, server: , request: "GET / HTTP/1.1", host: "62.82.125.129:80"
+2024/02/27 18:20:00 [notice] 16904#14248: using the "select" event method
+2024/02/27 18:20:00 [notice] 16904#14248: nginx/1.14.1
+2024/02/27 18:20:00 [info] 16904#14248: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:20:00 [notice] 16904#14248: start worker processes
+2024/02/27 18:20:00 [notice] 16904#14248: start worker process 7396
+2024/02/27 18:20:00 [notice] 7396#16756: nginx/1.14.1
+2024/02/27 18:20:00 [info] 7396#16756: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:20:00 [notice] 7396#16756: create thread 7580
+2024/02/27 18:20:00 [notice] 7396#16756: create thread 14256
+2024/02/27 18:20:00 [notice] 7396#16756: create thread 17188
+2024/02/27 18:20:07 [info] 7396#7580: *1 client connected '127.0.0.1'
+2024/02/27 18:20:07 [info] 7396#7580: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:20:07 [info] 7396#7580: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:20:07 [info] 7396#7580: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:20:07 [info] 7396#7580: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:22:00 [emerg] 7868#11784: "location" directive is not allowed here in D:\nginx/conf/nginx.conf:16
+2024/02/27 18:22:46 [emerg] 6264#11712: "if" directive is not allowed here in D:\nginx/conf/nginx.conf:16
+2024/02/27 18:23:37 [emerg] 2228#1108: "location" directive is not allowed here in D:\nginx/conf/nginx.conf:16
+2024/02/27 18:24:22 [emerg] 17088#7364: "map" directive is not allowed here in D:\nginx/conf/nginx.conf:17
+2024/02/27 18:33:55 [notice] 17132#12456: using the "select" event method
+2024/02/27 18:33:55 [notice] 17132#12456: nginx/1.14.1
+2024/02/27 18:33:55 [info] 17132#12456: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:33:55 [notice] 17132#12456: start worker processes
+2024/02/27 18:33:55 [notice] 17132#12456: start worker process 9888
+2024/02/27 18:33:55 [notice] 9888#9880: nginx/1.14.1
+2024/02/27 18:33:55 [info] 9888#9880: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:33:55 [notice] 9888#9880: create thread 8364
+2024/02/27 18:33:55 [notice] 9888#9880: create thread 4300
+2024/02/27 18:33:55 [notice] 9888#9880: create thread 14640
+2024/02/27 18:34:18 [info] 9888#8364: *1 client connected '127.0.0.1'
+2024/02/27 18:34:18 [info] 9888#8364: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:18 [info] 9888#8364: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:18 [info] 9888#8364: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:18 [info] 9888#8364: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:29 [info] 9888#8364: *2 client connected '127.0.0.1'
+2024/02/27 18:34:29 [info] 9888#8364: *2 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:29 [info] 9888#8364: *2 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:29 [info] 9888#8364: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:34:29 [info] 9888#8364: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:36:06 [notice] 17132#12456: worker process 9888 exited with code 1
+2024/02/27 18:36:06 [notice] 17132#12456: start worker process 15868
+2024/02/27 18:36:06 [notice] 15868#14100: nginx/1.14.1
+2024/02/27 18:36:06 [info] 15868#14100: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:36:06 [notice] 15868#14100: create thread 2812
+2024/02/27 18:36:06 [notice] 15868#14100: create thread 10128
+2024/02/27 18:36:06 [notice] 15868#14100: create thread 7784
+2024/02/27 18:36:11 [notice] 17132#12456: worker process 15868 exited with code 1
+2024/02/27 18:36:11 [notice] 17132#12456: start worker process 10320
+2024/02/27 18:36:11 [notice] 10320#13624: nginx/1.14.1
+2024/02/27 18:36:11 [info] 10320#13624: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:36:11 [notice] 10320#13624: create thread 10052
+2024/02/27 18:36:11 [notice] 10320#13624: create thread 9308
+2024/02/27 18:36:11 [notice] 10320#13624: create thread 9296
+2024/02/27 18:36:13 [notice] 17132#12456: worker process 10320 exited with code 1
+2024/02/27 18:36:13 [notice] 17132#12456: start worker process 7368
+2024/02/27 18:36:13 [notice] 7368#10632: nginx/1.14.1
+2024/02/27 18:36:13 [info] 7368#10632: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:36:13 [notice] 7368#10632: create thread 13896
+2024/02/27 18:36:13 [notice] 7368#10632: create thread 3908
+2024/02/27 18:36:13 [notice] 7368#10632: create thread 16808
+2024/02/27 18:36:49 [notice] 4068#12212: using the "select" event method
+2024/02/27 18:36:49 [notice] 4068#12212: nginx/1.14.1
+2024/02/27 18:36:49 [info] 4068#12212: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:36:49 [notice] 4068#12212: start worker processes
+2024/02/27 18:36:49 [notice] 4068#12212: start worker process 5236
+2024/02/27 18:36:49 [notice] 5236#12384: nginx/1.14.1
+2024/02/27 18:36:49 [info] 5236#12384: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:36:49 [notice] 5236#12384: create thread 6920
+2024/02/27 18:36:49 [notice] 5236#12384: create thread 10108
+2024/02/27 18:36:49 [notice] 5236#12384: create thread 976
+2024/02/27 18:36:55 [info] 5236#6920: *1 client connected '127.0.0.1'
+2024/02/27 18:36:55 [info] 5236#6920: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:36:55 [info] 5236#6920: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:36:55 [info] 5236#6920: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:36:55 [info] 5236#6920: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:42:21 [notice] 14580#3644: using the "select" event method
+2024/02/27 18:42:21 [notice] 14580#3644: nginx/1.14.1
+2024/02/27 18:42:21 [info] 14580#3644: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:42:21 [notice] 14580#3644: start worker processes
+2024/02/27 18:42:21 [notice] 14580#3644: start worker process 14396
+2024/02/27 18:42:21 [notice] 14396#16204: nginx/1.14.1
+2024/02/27 18:42:21 [info] 14396#16204: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:42:21 [notice] 14396#16204: create thread 4616
+2024/02/27 18:42:21 [notice] 14396#16204: create thread 5164
+2024/02/27 18:42:21 [notice] 14396#16204: create thread 12928
+2024/02/27 18:42:24 [info] 14396#4616: *1 client connected '127.0.0.1'
+2024/02/27 18:42:24 [info] 14396#4616: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:42:24 [info] 14396#4616: *1 connect: application not found: 'live1', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:42:24 [info] 14396#4616: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:42:24 [info] 14396#4616: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:49:48 [emerg] 13388#5680: "map" directive is not allowed here in D:\nginx/conf/nginx.conf:17
+2024/02/27 18:51:59 [notice] 3516#1996: using the "select" event method
+2024/02/27 18:51:59 [notice] 3516#1996: nginx/1.14.1
+2024/02/27 18:51:59 [info] 3516#1996: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:51:59 [notice] 3516#1996: start worker processes
+2024/02/27 18:51:59 [notice] 3516#1996: start worker process 13688
+2024/02/27 18:51:59 [notice] 13688#8376: nginx/1.14.1
+2024/02/27 18:51:59 [info] 13688#8376: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 18:51:59 [notice] 13688#8376: create thread 16968
+2024/02/27 18:51:59 [notice] 13688#8376: create thread 16484
+2024/02/27 18:51:59 [notice] 13688#8376: create thread 16544
+2024/02/27 18:52:02 [info] 13688#16968: *1 client connected '127.0.0.1'
+2024/02/27 18:52:02 [info] 13688#16968: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:02 [info] 13688#16968: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:02 [info] 13688#16968: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:02 [info] 13688#16968: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:04 [info] 13688#16968: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:04 [info] 13688#16968: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:04 [info] 13688#16968: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:04 [info] 13688#16968: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 client connected '127.0.0.1'
+2024/02/27 18:52:12 [info] 13688#16968: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 publish: name='stream' args='psk=abc' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:12 [info] 13688#16968: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 client connected '127.0.0.1'
+2024/02/27 18:52:22 [info] 13688#16968: *7 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 publish: name='stream' args='psk=abc' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 18:52:22 [info] 13688#16968: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:29 [notice] 12416#9452: using the "select" event method
+2024/02/27 19:00:29 [notice] 12416#9452: nginx/1.14.1
+2024/02/27 19:00:29 [info] 12416#9452: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:00:29 [notice] 12416#9452: start worker processes
+2024/02/27 19:00:29 [notice] 12416#9452: start worker process 12264
+2024/02/27 19:00:29 [notice] 12264#10280: nginx/1.14.1
+2024/02/27 19:00:29 [info] 12264#10280: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:00:29 [notice] 12264#10280: create thread 6152
+2024/02/27 19:00:29 [notice] 12264#10280: create thread 7552
+2024/02/27 19:00:29 [notice] 12264#10280: create thread 17012
+2024/02/27 19:00:30 [info] 12264#6152: *1 client connected '127.0.0.1'
+2024/02/27 19:00:30 [info] 12264#6152: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:30 [info] 12264#6152: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:30 [info] 12264#6152: *1 publish: name='stream' args='psk=abc' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:30 [info] 12264#6152: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:30 [info] 12264#6152: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:30 [info] 12264#6152: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 client connected '127.0.0.1'
+2024/02/27 19:00:32 [info] 12264#6152: *4 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 publish: name='stream' args='psk=abc' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:32 [info] 12264#6152: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:41 [info] 12264#6152: *7 client connected '127.0.0.1'
+2024/02/27 19:00:41 [info] 12264#6152: *7 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:41 [info] 12264#6152: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:41 [info] 12264#6152: *7 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:41 [info] 12264#6152: *7 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:48 [info] 12264#6152: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:48 [info] 12264#6152: *7 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:48 [info] 12264#6152: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:00:48 [info] 12264#6152: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:06:33 [notice] 17880#17884: using the "select" event method
+2024/02/27 19:06:33 [notice] 17880#17884: nginx/1.14.1
+2024/02/27 19:06:33 [info] 17880#17884: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:06:33 [notice] 17880#17884: start worker processes
+2024/02/27 19:06:33 [notice] 17880#17884: start worker process 17968
+2024/02/27 19:06:34 [notice] 17968#17972: nginx/1.14.1
+2024/02/27 19:06:34 [info] 17968#17972: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:06:34 [notice] 17968#17972: create thread 18028
+2024/02/27 19:06:34 [notice] 17968#17972: create thread 18032
+2024/02/27 19:06:34 [notice] 17968#17972: create thread 18036
+2024/02/27 19:06:39 [info] 17968#18028: *1 client connected '127.0.0.1'
+2024/02/27 19:06:39 [info] 17968#18028: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:06:39 [info] 17968#18028: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:06:39 [info] 17968#18028: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:06:39 [info] 17968#18028: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:09:26 [info] 17968#18028: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:09:26 [info] 17968#18028: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:09:26 [info] 17968#18028: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:09:26 [info] 17968#18028: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:09:46 [error] 17968#18028: *4 CreateFile() "D:\nginx/html/druid/index.html" failed (3: FormatMessage() error:(15105)), client: 159.203.192.46, server: , request: "GET /druid/index.html HTTP/1.1", host: "62.82.125.129"
+2024/02/27 19:09:47 [info] 17968#18028: *4 client 159.203.192.46 closed keepalive connection
+2024/02/27 19:10:21 [notice] 10144#13604: using the "select" event method
+2024/02/27 19:10:21 [notice] 10144#13604: nginx/1.14.1
+2024/02/27 19:10:21 [info] 10144#13604: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:10:21 [notice] 10144#13604: start worker processes
+2024/02/27 19:10:21 [notice] 10144#13604: start worker process 17456
+2024/02/27 19:10:21 [notice] 17456#16284: nginx/1.14.1
+2024/02/27 19:10:21 [info] 17456#16284: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:10:21 [notice] 17456#16284: create thread 6044
+2024/02/27 19:10:21 [notice] 17456#16284: create thread 9916
+2024/02/27 19:10:21 [notice] 17456#16284: create thread 17512
+2024/02/27 19:10:25 [info] 17456#6044: *1 client connected '127.0.0.1'
+2024/02/27 19:10:25 [info] 17456#6044: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:10:25 [info] 17456#6044: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:10:25 [info] 17456#6044: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:10:25 [info] 17456#6044: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:08 [info] 17456#6044: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:08 [info] 17456#6044: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:08 [info] 17456#6044: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:08 [info] 17456#6044: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:16 [notice] 17964#15496: using the "select" event method
+2024/02/27 19:13:16 [notice] 17964#15496: nginx/1.14.1
+2024/02/27 19:13:16 [info] 17964#15496: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:13:16 [notice] 17964#15496: start worker processes
+2024/02/27 19:13:16 [notice] 17964#15496: start worker process 17680
+2024/02/27 19:13:16 [notice] 17680#14956: nginx/1.14.1
+2024/02/27 19:13:16 [info] 17680#14956: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:13:16 [notice] 17680#14956: create thread 18196
+2024/02/27 19:13:16 [notice] 17680#14956: create thread 18064
+2024/02/27 19:13:16 [notice] 17680#14956: create thread 18060
+2024/02/27 19:13:20 [info] 17680#18196: *1 client connected '127.0.0.1'
+2024/02/27 19:13:20 [info] 17680#18196: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:20 [info] 17680#18196: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:20 [info] 17680#18196: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:13:20 [info] 17680#18196: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:14:59 [error] 17680#18196: *4 CreateFile() "D:\nginx/html/boaform/admin/formLogin" failed (3: FormatMessage() error:(15100)), client: 123.232.160.64, server: , request: "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0"
+2024/02/27 19:15:50 [error] 17680#18196: *5 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/"
+2024/02/27 19:15:50 [error] 17680#18196: *6 CreateFile() "D:\nginx/www/favicon.ico" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /favicon.ico HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/"
+2024/02/27 19:16:04 [error] 17680#18196: *5 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/"
+2024/02/27 19:16:20 [info] 17680#18196: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:16:20 [info] 17680#18196: *1 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:16:20 [info] 17680#18196: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:16:20 [info] 17680#18196: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:07 [notice] 12592#1928: using the "select" event method
+2024/02/27 19:17:07 [notice] 12592#1928: nginx/1.14.1
+2024/02/27 19:17:07 [info] 12592#1928: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:17:07 [notice] 12592#1928: start worker processes
+2024/02/27 19:17:07 [notice] 12592#1928: start worker process 10412
+2024/02/27 19:17:07 [notice] 10412#19404: nginx/1.14.1
+2024/02/27 19:17:07 [info] 10412#19404: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:17:07 [notice] 10412#19404: create thread 8408
+2024/02/27 19:17:07 [notice] 10412#19404: create thread 13020
+2024/02/27 19:17:07 [notice] 10412#19404: create thread 16304
+2024/02/27 19:17:13 [info] 10412#8408: *1 client connected '127.0.0.1'
+2024/02/27 19:17:13 [info] 10412#8408: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:13 [info] 10412#8408: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:13 [info] 10412#8408: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:13 [info] 10412#8408: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:58 [info] 10412#8408: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:58 [info] 10412#8408: *1 WSARecv() failed (10053: FormatMessage() error:(15100)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:58 [info] 10412#8408: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:17:58 [info] 10412#8408: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:18:12 [notice] 17760#18816: using the "select" event method
+2024/02/27 19:18:12 [notice] 17760#18816: nginx/1.14.1
+2024/02/27 19:18:12 [info] 17760#18816: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:18:12 [notice] 17760#18816: start worker processes
+2024/02/27 19:18:12 [notice] 17760#18816: start worker process 11552
+2024/02/27 19:18:12 [notice] 11552#18624: nginx/1.14.1
+2024/02/27 19:18:12 [info] 11552#18624: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:18:12 [notice] 11552#18624: create thread 17840
+2024/02/27 19:18:12 [notice] 11552#18624: create thread 10128
+2024/02/27 19:18:12 [notice] 11552#18624: create thread 6160
+2024/02/27 19:18:39 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15100)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:18:39 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:18:43 [info] 11552#17840: *3 client connected '127.0.0.1'
+2024/02/27 19:18:43 [info] 11552#17840: *3 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:18:43 [info] 11552#17840: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:18:43 [info] 11552#17840: *3 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:18:43 [info] 11552#17840: *3 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:18:49 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:18:49 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:18:54 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:18:54 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:04 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:04 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:06 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:06 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:07 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:07 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:08 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:08 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:16 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:19:16 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:19:17 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:19:17 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:19:22 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:19:22 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls2/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls2/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:19:24 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:19:24 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/hls2/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls2/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:19:32 [error] 11552#17840: *2 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:19:32 [error] 11552#17840: *1 CreateFile() "D:\nginx/www/hls1/stream1.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream1.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:20:48 [info] 11552#17840: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:20:48 [info] 11552#17840: *3 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:20:48 [info] 11552#17840: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:20:48 [info] 11552#17840: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:21:08 [notice] 18884#13604: using the "select" event method
+2024/02/27 19:21:08 [notice] 18884#13604: nginx/1.14.1
+2024/02/27 19:21:08 [info] 18884#13604: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:21:08 [notice] 18884#13604: start worker processes
+2024/02/27 19:21:08 [notice] 18884#13604: start worker process 12292
+2024/02/27 19:21:09 [notice] 12292#17724: nginx/1.14.1
+2024/02/27 19:21:09 [info] 12292#17724: OS: 260200 build:9200, "", suite:100, type:1
+2024/02/27 19:21:09 [notice] 12292#17724: create thread 17768
+2024/02/27 19:21:09 [notice] 12292#17724: create thread 17688
+2024/02/27 19:21:09 [notice] 12292#17724: create thread 8952
+2024/02/27 19:21:12 [info] 12292#17768: *1 client connected '127.0.0.1'
+2024/02/27 19:21:12 [info] 12292#17768: *1 connect: app='live1' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live1' tc_url='rtmp://localhost/live1' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:21:12 [info] 12292#17768: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:21:12 [info] 12292#17768: *1 publish: name='stream' args='psk=abcd' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:21:12 [info] 12292#17768: *1 notify: publish '127.0.0.1:80/auth', client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:21:17 [error] 12292#17768: *4 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15100)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:21:32 [error] 12292#17768: *5 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:21:32 [error] 12292#17768: *4 CreateFile() "D:\nginx/www/hls2/stream.m3u8" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls2/stream.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls2"
+2024/02/27 19:21:40 [error] 12292#17768: *5 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:24:28 [info] 12292#17768: *6 client 31.4.215.229 closed keepalive connection
+2024/02/27 19:24:29 [info] 12292#17768: *7 client prematurely closed connection while sending response to client, client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /hls1/stream-41.ts HTTP/1.1", host: "pruebastreaming.ddns.net"
+2024/02/27 19:24:54 [info] 12292#17768: *8 client connected '77.211.5.178'
+2024/02/27 19:24:54 [info] 12292#17768: *8 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://pruebastreaming.ddns.net/live' tc_url='rtmp://pruebastreaming.ddns.net/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:24:54 [info] 12292#17768: *8 createStream, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:24:54 [info] 12292#17768: *8 publish: name='stream' args='psk=1234' type=live silent=0, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:24:54 [info] 12292#17768: *8 notify: publish '127.0.0.1:80/auth', client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:25:11 [error] 12292#17768: *13 CreateFile() "D:\nginx/www/null/stream.m3u8" failed (3: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /null/stream.m3u8 HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?player=player2"
+2024/02/27 19:25:11 [error] 12292#17768: *12 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?player=player2"
+2024/02/27 19:25:12 [error] 12292#17768: *12 CreateFile() "D:\nginx/www/favicon.ico" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /favicon.ico HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?player=player2"
+2024/02/27 19:25:28 [error] 12292#17768: *12 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:25:31 [error] 12292#17768: *12 CreateFile() "D:\nginx/www/thumbnails.jpg" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /thumbnails.jpg HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:26:02 [error] 12292#17768: *15 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 31.4.215.229, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls1"
+2024/02/27 19:26:31 [info] 12292#17768: *14 client timed out (10060: FormatMessage() error:(15105)) while waiting for request, client: 77.211.5.178, server: 0.0.0.0:443
+2024/02/27 19:26:43 [error] 12292#17768: *13 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:26:45 [error] 12292#17768: *13 CreateFile() "D:\nginx/www/demo.png" failed (2: FormatMessage() error:(15105)), client: 77.211.5.178, server: pruebastreaming.ddns.net, request: "GET /demo.png HTTP/1.1", host: "pruebastreaming.ddns.net", referrer: "https://pruebastreaming.ddns.net/?hls=hls"
+2024/02/27 19:26:54 [info] 12292#17768: *8 deleteStream, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:26:54 [info] 12292#17768: *8 disconnect, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:26:54 [info] 12292#17768: *8 deleteStream, client: 77.211.5.178, server: 0.0.0.0:1935
+2024/02/27 19:27:05 [info] 12292#17768: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:27:05 [info] 12292#17768: *1 WSARecv() failed (10053: FormatMessage() error:(15105)), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:27:05 [info] 12292#17768: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/02/27 19:27:05 [info] 12292#17768: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
